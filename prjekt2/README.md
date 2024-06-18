@@ -73,8 +73,8 @@ Markdown | не такой | красивый
 ---
 ```mermaid
   graph TD;
-      modified+git add-->=staged;
-      modified+git add-->staged;
-      =staged-->git status;
-      staged-->git status;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
