@@ -69,3 +69,12 @@ Markdown | не такой | красивый
 --- | --- | ---
 *Но выводится* | `так же` | **клево**
 1 | 2 | 3
+
+---
+```mermaid
+  graph TD;
+      modified+git add-->=staged;
+      modified+git add-->staged;
+      =staged-->git status;
+      staged-->git status;
+```
