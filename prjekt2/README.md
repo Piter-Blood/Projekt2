@@ -71,10 +71,12 @@ Markdown | не такой | красивый
 1 | 2 | 3
 
 ---
+
+
 ```mermaid
   graph TD;
-      Amodified+git add-->B;
-      Amodified+git add-->C;
+      A[hi]-->B;
+      A[hi]-->C;
       B-->D;
       C-->D;
 ```
