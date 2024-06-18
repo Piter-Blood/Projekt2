@@ -73,8 +73,8 @@ Markdown | не такой | красивый
 ---
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
+      Apz-->B;
+      Apz-->C;
       B-->D;
       C-->D;
 ```
