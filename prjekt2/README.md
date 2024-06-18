@@ -75,8 +75,6 @@ Markdown | не такой | красивый
 
 ```mermaid
   graph TD;
-      A[hi]-->B;
-      A[hi]-->C;
-      B-->D;
-      C-->D;
+      A[modified+git add]-->B[staged];
+      A[modified+git add]-->C[staged];
 ```
