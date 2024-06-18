@@ -78,3 +78,12 @@ Markdown | не такой | красивый
       A[modified+git add]-->B[staged];
       A[modified+git add]-->C[staged];
 ```
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
